@@ -1,4 +1,11 @@
-.container {
+/*     body {
+/*      height: 100%;
+     background-image: url("BETTERcafescene.png");
+     background-repeat: no-repeat;
+  `   background-size: cover; */
+ } */
+
+    .container {
       text-align: justify;
       font-family: 'Lato', sans-serif;
     }
@@ -28,13 +35,6 @@
          background: rgb(255, 255, 240); /* fallback color */
          background: rgba(255, 255, 240, 0.7);
          padding: 10px;
-    }
-
-    body {
-        height: 100%;
-        background-image: url("BETTERcafescene.png");
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     #appear {
@@ -87,6 +87,15 @@
         }
     }
 
+      #cafe {
+        position: absolute;
+        right: 500px;
+        top: 110px;
+        height: 1000px;
+        width: 557px;
+        z-index: -1;
+}
+
       #sam {
         position: absolute;
         left: 170px;
@@ -96,20 +105,14 @@
 
       #cafetable {
         position: absolute;
-        right: 200px;
-        top: 450px;
+        right: 280px;
+        top: 480px;
       }
-
-      #cafetable1 {
-        position: absolute;
-        right: 470px;
-        top: 450px;
-}
 
       #cafeman {
         position: absolute;
-        right: 80px;
-        top: 210px;
+        right: 180px;
+        top: 280px;
         height: 300px;
         width: 200px;
     }
@@ -120,7 +123,7 @@
         height: 120px;
         left: 400px;
         top: 230px;
-
+        
         padding: 10px;
         border-radius: 5px;
         border: solid #F7DC6F;
@@ -206,13 +209,13 @@
      #flash{
       position: absolute;
       visibility : hidden;
-      display: block;
+      display: block;   
       margin: auto;
       width: 28%;
       top: 180px;
       left: 500px;
-}
-
+} 
+      
       .containers .button-container{
         text-align: center;
         /*   margin-top: 10px;   */
@@ -266,7 +269,7 @@
         }
 
       .audio {
-
+  
 }
       .containers .flip-container {
         margin: 0 auto;
